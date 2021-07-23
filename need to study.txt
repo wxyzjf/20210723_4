@@ -1,0 +1,93 @@
+renshi outlook study
+
+
+baocun teams
+
+
+
+
+parquet
+
+8080
+
+hive spark
+
+
+git
+
+
+http://spark.apache.org/docs/latest/api/python/pyspark.sql.html#pyspark.sql.DataFrame
+
+teams about parquet
+
+py test.txt
+
+
+
+test spark parquet by myself
+
+
+check 12:00 running schedual
+
+
+from __future__ import print_function
+
+from pyspark.sql import SparkSession
+
+from pyspark.sql import  Row
+
+from pyspark.sql.types import *
+
+from datetime import datetime
+
+def basic_df_example(spark):
+
+    df = spark.read.csv("/HDS_VOL_HIVE/FWCDR/start_date=20200613/fwcdr_ldr_20200613_20200613111217_p1_001.gz",sep='|')
+*.gz
+    
+    df.createOrReplaceTempView("fwcdr")
+    
+    spark.sql("select count(1) from fwcdr").show()
+ spark.sql("select * from fwcdr sort by _c3").show(20)
+
+
+spark = SparkSession \
+    .builder \
+    .appName("test") \
+    .config("spark.some.config.option", "some-value") \
+    .getOrCreate()
+print(datetime.now())
+basic_df_example(spark)
+print(datetime.now())
+
+
+create parquet table (undserstanding bucket)
+
+
+
+spark:6
+spark.org
+api doc
+mapr 6.1
+process.pdf
+spark.pdf
+..
+test py
+teams 
+?
+
+
+
+
+
+check hadoop file size  and wc -l
+
+select * from all_tables where table_name like '%SMCIN_CALL_RECS%'
+
+https://translate.google.com/translate?hl=zh-CN&sl=en&tl=zh-CN&u=https%3A%2F%2Fmungingdata.com%2Fpython%2Fwriting-parquet-pandas-pyspark-koalas%2F&anno=2&prev=search
+
+
+local pc web read
+
+and home pc study
+

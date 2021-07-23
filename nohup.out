@@ -1,0 +1,633 @@
+Start to load Hbase at Tue Mar  3 17:20:44 HKT 2020
+2020-03-03 17:20:47,356 WARN  [main] util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-03-03 17:20:47,461 INFO  [main] client.ConnectionFactory: ConnectionFactory receives mapr.hbase.default.db(mapr), set clusterType(MAPR_ONLY), user(mapr), hbase_admin_connect_at_construction(false)
+2020-03-03 17:20:47,659 INFO  [main] mapreduce.TableMapReduceUtil: Setting speculative execution off for bulkload operation
+2020-03-03 17:20:47,690 INFO  [main] mapreduce.TableMapReduceUtil: Configured 'hbase.mapreduce.mapr.tablepath' to /HDS_VOL_HBASE/FW_CDR_03
+2020-03-03 17:20:47,756 INFO  [main] Configuration.deprecation: io.bytes.per.checksum is deprecated. Instead, use dfs.bytes-per-checksum
+2020-03-03 17:20:48,077 INFO  [main] Configuration.deprecation: io.bytes.per.checksum is deprecated. Instead, use dfs.bytes-per-checksum
+2020-03-03 17:20:50,949 INFO  [main] input.FileInputFormat: Total input paths to process : 18
+2020-03-03 17:20:50,996 INFO  [main] mapreduce.JobSubmitter: number of splits:18
+2020-03-03 17:20:51,074 INFO  [main] mapreduce.JobSubmitter: Submitting tokens for job: job_1576667648124_0076
+2020-03-03 17:20:51,398 INFO  [main] security.ExternalTokenManagerFactory: Initialized external token manager class - com.mapr.hadoop.yarn.security.MapRTicketManager
+2020-03-03 17:20:51,623 INFO  [main] impl.YarnClientImpl: Submitted application application_1576667648124_0076
+2020-03-03 17:20:51,661 INFO  [main] mapreduce.Job: The url to track the job: http://bigdatamr08.hksmartone.com:8088/proxy/application_1576667648124_0076/
+2020-03-03 17:20:51,662 INFO  [main] mapreduce.Job: Running job: job_1576667648124_0076
+2020-03-03 17:20:56,724 INFO  [main] mapreduce.Job: Job job_1576667648124_0076 running in uber mode : false
+2020-03-03 17:20:56,725 INFO  [main] mapreduce.Job:  map 0% reduce 0%
+2020-03-03 17:21:34,252 INFO  [main] mapreduce.Job:  map 1% reduce 0%
+2020-03-03 17:22:25,985 INFO  [main] mapreduce.Job:  map 2% reduce 0%
+2020-03-03 17:23:20,624 INFO  [main] mapreduce.Job:  map 3% reduce 0%
+2020-03-03 17:24:13,316 INFO  [main] mapreduce.Job:  map 4% reduce 0%
+2020-03-03 17:25:07,034 INFO  [main] mapreduce.Job:  map 5% reduce 0%
+2020-03-03 17:25:40,636 INFO  [main] mapreduce.Job:  map 6% reduce 0%
+2020-03-03 17:26:37,392 INFO  [main] mapreduce.Job:  map 7% reduce 0%
+2020-03-03 17:27:43,225 INFO  [main] mapreduce.Job:  map 8% reduce 0%
+2020-03-03 17:28:47,189 INFO  [main] mapreduce.Job:  map 9% reduce 0%
+2020-03-03 17:29:47,986 INFO  [main] mapreduce.Job:  map 10% reduce 0%
+2020-03-03 17:30:58,784 INFO  [main] mapreduce.Job:  map 11% reduce 0%
+2020-03-03 17:32:10,583 INFO  [main] mapreduce.Job:  map 12% reduce 0%
+2020-03-03 17:33:13,252 INFO  [main] mapreduce.Job:  map 13% reduce 0%
+2020-03-03 17:34:16,891 INFO  [main] mapreduce.Job:  map 14% reduce 0%
+2020-03-03 17:35:29,617 INFO  [main] mapreduce.Job:  map 15% reduce 0%
+2020-03-03 17:36:27,281 INFO  [main] mapreduce.Job:  map 16% reduce 0%
+2020-03-03 17:37:24,902 INFO  [main] mapreduce.Job:  map 17% reduce 0%
+2020-03-03 17:38:26,594 INFO  [main] mapreduce.Job:  map 18% reduce 0%
+2020-03-03 17:39:22,230 INFO  [main] mapreduce.Job:  map 19% reduce 0%
+2020-03-03 17:40:12,182 INFO  [main] mapreduce.Job:  map 20% reduce 0%
+2020-03-03 17:41:05,339 INFO  [main] mapreduce.Job:  map 21% reduce 0%
+2020-03-03 17:42:00,463 INFO  [main] mapreduce.Job:  map 22% reduce 0%
+2020-03-03 17:43:06,348 INFO  [main] mapreduce.Job:  map 23% reduce 0%
+2020-03-03 17:44:08,168 INFO  [main] mapreduce.Job:  map 24% reduce 0%
+2020-03-03 17:45:13,882 INFO  [main] mapreduce.Job:  map 25% reduce 0%
+2020-03-03 17:46:13,801 INFO  [main] mapreduce.Job:  map 26% reduce 0%
+2020-03-03 17:47:19,413 INFO  [main] mapreduce.Job:  map 27% reduce 0%
+2020-03-03 17:48:32,330 INFO  [main] mapreduce.Job:  map 28% reduce 0%
+2020-03-03 17:49:31,005 INFO  [main] mapreduce.Job:  map 29% reduce 0%
+2020-03-03 17:50:23,723 INFO  [main] mapreduce.Job:  map 30% reduce 0%
+2020-03-03 17:51:27,702 INFO  [main] mapreduce.Job:  map 31% reduce 0%
+2020-03-03 17:52:34,552 INFO  [main] mapreduce.Job:  map 32% reduce 0%
+2020-03-03 17:53:44,617 INFO  [main] mapreduce.Job:  map 33% reduce 0%
+2020-03-03 17:54:42,494 INFO  [main] mapreduce.Job:  map 34% reduce 0%
+2020-03-03 17:55:43,341 INFO  [main] mapreduce.Job:  map 35% reduce 0%
+2020-03-03 17:56:47,332 INFO  [main] mapreduce.Job:  map 36% reduce 0%
+2020-03-03 17:57:47,098 INFO  [main] mapreduce.Job:  map 37% reduce 0%
+2020-03-03 17:58:44,929 INFO  [main] mapreduce.Job:  map 38% reduce 0%
+2020-03-03 17:59:50,894 INFO  [main] mapreduce.Job:  map 39% reduce 0%
+2020-03-03 18:00:53,777 INFO  [main] mapreduce.Job:  map 40% reduce 0%
+2020-03-03 18:02:04,477 INFO  [main] mapreduce.Job:  map 41% reduce 0%
+2020-03-03 18:03:07,300 INFO  [main] mapreduce.Job:  map 42% reduce 0%
+2020-03-03 18:04:23,128 INFO  [main] mapreduce.Job:  map 43% reduce 0%
+2020-03-03 18:05:51,341 INFO  [main] mapreduce.Job:  map 44% reduce 0%
+2020-03-03 18:07:14,205 INFO  [main] mapreduce.Job:  map 45% reduce 0%
+2020-03-03 18:08:41,148 INFO  [main] mapreduce.Job:  map 46% reduce 0%
+2020-03-03 18:10:02,101 INFO  [main] mapreduce.Job:  map 47% reduce 0%
+2020-03-03 18:11:29,287 INFO  [main] mapreduce.Job:  map 48% reduce 0%
+2020-03-03 18:12:57,589 INFO  [main] mapreduce.Job:  map 49% reduce 0%
+2020-03-03 18:14:13,517 INFO  [main] mapreduce.Job:  map 50% reduce 0%
+2020-03-03 18:15:57,287 INFO  [main] mapreduce.Job:  map 51% reduce 0%
+2020-03-03 18:17:29,994 INFO  [main] mapreduce.Job:  map 52% reduce 0%
+2020-03-03 18:18:58,756 INFO  [main] mapreduce.Job:  map 53% reduce 0%
+2020-03-03 18:20:24,711 INFO  [main] mapreduce.Job:  map 54% reduce 0%
+2020-03-03 18:21:38,666 INFO  [main] mapreduce.Job:  map 55% reduce 0%
+2020-03-03 18:23:13,402 INFO  [main] mapreduce.Job:  map 56% reduce 0%
+2020-03-03 18:24:26,188 INFO  [main] mapreduce.Job:  map 57% reduce 0%
+2020-03-03 18:25:33,042 INFO  [main] mapreduce.Job:  map 58% reduce 0%
+2020-03-03 18:26:46,229 INFO  [main] mapreduce.Job:  map 59% reduce 0%
+2020-03-03 18:27:52,021 INFO  [main] mapreduce.Job:  map 60% reduce 0%
+2020-03-03 18:28:59,835 INFO  [main] mapreduce.Job:  map 61% reduce 0%
+2020-03-03 18:30:12,790 INFO  [main] mapreduce.Job:  map 62% reduce 0%
+2020-03-03 18:31:41,803 INFO  [main] mapreduce.Job:  map 63% reduce 0%
+2020-03-03 18:33:08,688 INFO  [main] mapreduce.Job:  map 64% reduce 0%
+2020-03-03 18:34:29,614 INFO  [main] mapreduce.Job:  map 65% reduce 0%
+2020-03-03 18:35:50,572 INFO  [main] mapreduce.Job:  map 66% reduce 0%
+2020-03-03 18:37:16,361 INFO  [main] mapreduce.Job:  map 67% reduce 0%
+2020-03-03 18:38:56,311 INFO  [main] mapreduce.Job:  map 68% reduce 0%
+2020-03-03 18:40:12,059 INFO  [main] mapreduce.Job:  map 69% reduce 0%
+2020-03-03 18:41:36,931 INFO  [main] mapreduce.Job:  map 70% reduce 0%
+2020-03-03 18:43:12,736 INFO  [main] mapreduce.Job:  map 71% reduce 0%
+2020-03-03 18:44:58,787 INFO  [main] mapreduce.Job:  map 72% reduce 0%
+2020-03-03 18:46:39,774 INFO  [main] mapreduce.Job:  map 73% reduce 0%
+2020-03-03 18:48:23,675 INFO  [main] mapreduce.Job:  map 74% reduce 0%
+2020-03-03 18:50:06,482 INFO  [main] mapreduce.Job:  map 75% reduce 0%
+2020-03-03 18:52:04,764 INFO  [main] mapreduce.Job:  map 76% reduce 0%
+2020-03-03 18:53:41,817 INFO  [main] mapreduce.Job:  map 77% reduce 0%
+2020-03-03 18:55:41,905 INFO  [main] mapreduce.Job:  map 78% reduce 0%
+2020-03-03 18:57:20,641 INFO  [main] mapreduce.Job:  map 79% reduce 0%
+2020-03-03 18:59:20,956 INFO  [main] mapreduce.Job:  map 80% reduce 0%
+2020-03-03 19:01:24,222 INFO  [main] mapreduce.Job:  map 81% reduce 0%
+2020-03-03 19:03:18,064 INFO  [main] mapreduce.Job:  map 82% reduce 0%
+2020-03-03 19:05:19,958 INFO  [main] mapreduce.Job:  map 83% reduce 0%
+2020-03-03 19:07:09,002 INFO  [main] mapreduce.Job:  map 84% reduce 0%
+2020-03-03 19:09:09,893 INFO  [main] mapreduce.Job:  map 85% reduce 0%
+2020-03-03 19:11:29,085 INFO  [main] mapreduce.Job:  map 86% reduce 0%
+2020-03-03 19:13:27,249 INFO  [main] mapreduce.Job:  map 87% reduce 0%
+2020-03-03 19:15:20,318 INFO  [main] mapreduce.Job:  map 88% reduce 0%
+2020-03-03 19:17:12,222 INFO  [main] mapreduce.Job:  map 89% reduce 0%
+2020-03-03 19:18:49,116 INFO  [main] mapreduce.Job:  map 90% reduce 0%
+2020-03-03 19:20:41,412 INFO  [main] mapreduce.Job:  map 91% reduce 0%
+2020-03-03 19:22:22,379 INFO  [main] mapreduce.Job:  map 92% reduce 0%
+2020-03-03 19:24:28,256 INFO  [main] mapreduce.Job:  map 93% reduce 0%
+2020-03-03 19:26:23,338 INFO  [main] mapreduce.Job:  map 94% reduce 0%
+2020-03-03 19:28:56,371 INFO  [main] mapreduce.Job:  map 95% reduce 0%
+2020-03-03 19:31:00,012 INFO  [main] mapreduce.Job:  map 96% reduce 0%
+2020-03-03 19:32:47,680 INFO  [main] mapreduce.Job:  map 97% reduce 0%
+2020-03-03 19:34:51,348 INFO  [main] mapreduce.Job:  map 98% reduce 0%
+2020-03-03 19:36:55,914 INFO  [main] mapreduce.Job:  map 99% reduce 0%
+2020-03-03 19:38:49,221 INFO  [main] mapreduce.Job:  map 100% reduce 0%
+2020-03-03 19:40:25,422 INFO  [main] mapreduce.Job: Job job_1576667648124_0076 completed successfully
+2020-03-03 19:40:25,535 INFO  [main] mapreduce.Job: Counters: 33
+	File System Counters
+		FILE: Number of bytes read=0
+		FILE: Number of bytes written=2469644
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		MAPRFS: Number of bytes read=58048343017
+		MAPRFS: Number of bytes written=0
+		MAPRFS: Number of read operations=7086095
+		MAPRFS: Number of large read operations=0
+		MAPRFS: Number of write operations=0
+	Job Counters 
+		Launched map tasks=18
+		Data-local map tasks=16
+		Rack-local map tasks=2
+		Total time spent by all maps in occupied slots (ms)=408336408
+		Total time spent by all reduces in occupied slots (ms)=0
+		Total time spent by all map tasks (ms)=136112136
+		Total vcore-seconds taken by all map tasks=136112136
+		Total megabyte-seconds taken by all map tasks=836272963584
+		DISK_MILLIS_MAPS=20416822
+	Map-Reduce Framework
+		Map input records=3081537776
+		Map output records=3081537776
+		Input split bytes=2790
+		Spilled Records=0
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=19850692
+		CPU time spent (ms)=681802700
+		Physical memory (bytes) snapshot=23151181824
+		Virtual memory (bytes) snapshot=76970430464
+		Total committed heap usage (bytes)=15360065536
+	ImportTsv
+		Bad Lines=0
+	File Input Format Counters 
+		Bytes Read=58048340227
+	File Output Format Counters 
+		Bytes Written=0
+Start Was Finished On Tue Mar  3 19:40:25 HKT 2020
+Start to load Hbase at Fri Mar  6 17:20:10 HKT 2020
+2020-03-06 17:20:12,950 WARN  [main] util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-03-06 17:20:13,056 INFO  [main] client.ConnectionFactory: ConnectionFactory receives mapr.hbase.default.db(mapr), set clusterType(MAPR_ONLY), user(mapr), hbase_admin_connect_at_construction(false)
+2020-03-06 17:20:13,261 INFO  [main] mapreduce.TableMapReduceUtil: Setting speculative execution off for bulkload operation
+2020-03-06 17:20:13,292 INFO  [main] mapreduce.TableMapReduceUtil: Configured 'hbase.mapreduce.mapr.tablepath' to /HDS_VOL_HBASE/FW_CDR_03
+2020-03-06 17:20:13,361 INFO  [main] Configuration.deprecation: io.bytes.per.checksum is deprecated. Instead, use dfs.bytes-per-checksum
+2020-03-06 17:20:13,681 INFO  [main] Configuration.deprecation: io.bytes.per.checksum is deprecated. Instead, use dfs.bytes-per-checksum
+2020-03-06 17:20:13,986 INFO  [main] input.FileInputFormat: Total input paths to process : 21
+2020-03-06 17:20:14,073 INFO  [main] mapreduce.JobSubmitter: number of splits:21
+2020-03-06 17:20:14,150 INFO  [main] mapreduce.JobSubmitter: Submitting tokens for job: job_1576667648124_0092
+2020-03-06 17:20:14,433 INFO  [main] security.ExternalTokenManagerFactory: Initialized external token manager class - com.mapr.hadoop.yarn.security.MapRTicketManager
+2020-03-06 17:20:14,658 INFO  [main] impl.YarnClientImpl: Submitted application application_1576667648124_0092
+2020-03-06 17:20:14,695 INFO  [main] mapreduce.Job: The url to track the job: http://bigdatamr08.hksmartone.com:8088/proxy/application_1576667648124_0092/
+2020-03-06 17:20:14,696 INFO  [main] mapreduce.Job: Running job: job_1576667648124_0092
+2020-03-06 17:20:20,763 INFO  [main] mapreduce.Job: Job job_1576667648124_0092 running in uber mode : false
+2020-03-06 17:20:20,765 INFO  [main] mapreduce.Job:  map 0% reduce 0%
+2020-03-06 17:20:40,037 INFO  [main] mapreduce.Job:  map 1% reduce 0%
+2020-03-06 17:20:46,215 INFO  [main] mapreduce.Job:  map 2% reduce 0%
+2020-03-06 17:20:53,305 INFO  [main] mapreduce.Job:  map 3% reduce 0%
+2020-03-06 17:21:01,497 INFO  [main] mapreduce.Job:  map 4% reduce 0%
+2020-03-06 17:21:07,692 INFO  [main] mapreduce.Job:  map 5% reduce 0%
+2020-03-06 17:21:13,811 INFO  [main] mapreduce.Job:  map 6% reduce 0%
+2020-03-06 17:21:22,017 INFO  [main] mapreduce.Job:  map 7% reduce 0%
+2020-03-06 17:21:51,751 INFO  [main] mapreduce.Job:  map 8% reduce 0%
+2020-03-06 17:22:22,213 INFO  [main] mapreduce.Job:  map 9% reduce 0%
+2020-03-06 17:22:50,854 INFO  [main] mapreduce.Job:  map 10% reduce 0%
+2020-03-06 17:23:19,366 INFO  [main] mapreduce.Job:  map 11% reduce 0%
+2020-03-06 17:23:49,101 INFO  [main] mapreduce.Job:  map 12% reduce 0%
+2020-03-06 17:24:18,786 INFO  [main] mapreduce.Job:  map 13% reduce 0%
+2020-03-06 17:24:49,462 INFO  [main] mapreduce.Job:  map 14% reduce 0%
+2020-03-06 17:25:20,138 INFO  [main] mapreduce.Job:  map 15% reduce 0%
+2020-03-06 17:25:51,996 INFO  [main] mapreduce.Job:  map 16% reduce 0%
+2020-03-06 17:26:24,489 INFO  [main] mapreduce.Job:  map 17% reduce 0%
+2020-03-06 17:26:55,070 INFO  [main] mapreduce.Job:  map 18% reduce 0%
+2020-03-06 17:27:26,810 INFO  [main] mapreduce.Job:  map 19% reduce 0%
+2020-03-06 17:27:57,537 INFO  [main] mapreduce.Job:  map 20% reduce 0%
+2020-03-06 17:28:28,177 INFO  [main] mapreduce.Job:  map 21% reduce 0%
+2020-03-06 17:29:00,009 INFO  [main] mapreduce.Job:  map 22% reduce 0%
+2020-03-06 17:29:31,804 INFO  [main] mapreduce.Job:  map 23% reduce 0%
+2020-03-06 17:30:03,641 INFO  [main] mapreduce.Job:  map 24% reduce 0%
+2020-03-06 17:30:34,408 INFO  [main] mapreduce.Job:  map 25% reduce 0%
+2020-03-06 17:31:06,127 INFO  [main] mapreduce.Job:  map 26% reduce 0%
+2020-03-06 17:31:37,840 INFO  [main] mapreduce.Job:  map 27% reduce 0%
+2020-03-06 17:32:11,485 INFO  [main] mapreduce.Job:  map 28% reduce 0%
+2020-03-06 17:32:48,343 INFO  [main] mapreduce.Job:  map 29% reduce 0%
+2020-03-06 17:33:27,148 INFO  [main] mapreduce.Job:  map 30% reduce 0%
+2020-03-06 17:34:05,912 INFO  [main] mapreduce.Job:  map 31% reduce 0%
+2020-03-06 17:34:44,829 INFO  [main] mapreduce.Job:  map 32% reduce 0%
+2020-03-06 17:35:24,780 INFO  [main] mapreduce.Job:  map 33% reduce 0%
+2020-03-06 17:36:01,723 INFO  [main] mapreduce.Job:  map 34% reduce 0%
+2020-03-06 17:36:40,702 INFO  [main] mapreduce.Job:  map 35% reduce 0%
+2020-03-06 17:37:19,557 INFO  [main] mapreduce.Job:  map 36% reduce 0%
+2020-03-06 17:38:00,457 INFO  [main] mapreduce.Job:  map 37% reduce 0%
+2020-03-06 17:38:43,327 INFO  [main] mapreduce.Job:  map 38% reduce 0%
+2020-03-06 17:39:26,281 INFO  [main] mapreduce.Job:  map 39% reduce 0%
+2020-03-06 17:40:11,428 INFO  [main] mapreduce.Job:  map 40% reduce 0%
+2020-03-06 17:40:56,521 INFO  [main] mapreduce.Job:  map 41% reduce 0%
+2020-03-06 17:41:39,578 INFO  [main] mapreduce.Job:  map 42% reduce 0%
+2020-03-06 17:42:19,385 INFO  [main] mapreduce.Job:  map 43% reduce 0%
+2020-03-06 17:42:58,176 INFO  [main] mapreduce.Job:  map 44% reduce 0%
+2020-03-06 17:43:38,149 INFO  [main] mapreduce.Job:  map 45% reduce 0%
+2020-03-06 17:44:18,982 INFO  [main] mapreduce.Job:  map 46% reduce 0%
+2020-03-06 17:44:58,831 INFO  [main] mapreduce.Job:  map 47% reduce 0%
+2020-03-06 17:45:38,789 INFO  [main] mapreduce.Job:  map 48% reduce 0%
+2020-03-06 17:46:19,548 INFO  [main] mapreduce.Job:  map 49% reduce 0%
+2020-03-06 17:46:58,437 INFO  [main] mapreduce.Job:  map 50% reduce 0%
+2020-03-06 17:47:37,459 INFO  [main] mapreduce.Job:  map 51% reduce 0%
+2020-03-06 17:48:17,239 INFO  [main] mapreduce.Job:  map 52% reduce 0%
+2020-03-06 17:48:56,131 INFO  [main] mapreduce.Job:  map 53% reduce 0%
+2020-03-06 17:49:36,220 INFO  [main] mapreduce.Job:  map 54% reduce 0%
+2020-03-06 17:50:17,021 INFO  [main] mapreduce.Job:  map 55% reduce 0%
+2020-03-06 17:50:57,056 INFO  [main] mapreduce.Job:  map 56% reduce 0%
+2020-03-06 17:51:37,918 INFO  [main] mapreduce.Job:  map 57% reduce 0%
+2020-03-06 17:52:17,705 INFO  [main] mapreduce.Job:  map 58% reduce 0%
+2020-03-06 17:52:58,636 INFO  [main] mapreduce.Job:  map 59% reduce 0%
+2020-03-06 17:53:39,329 INFO  [main] mapreduce.Job:  map 60% reduce 0%
+2020-03-06 17:54:20,328 INFO  [main] mapreduce.Job:  map 61% reduce 0%
+2020-03-06 17:55:03,257 INFO  [main] mapreduce.Job:  map 62% reduce 0%
+2020-03-06 17:55:44,321 INFO  [main] mapreduce.Job:  map 63% reduce 0%
+2020-03-06 17:56:26,321 INFO  [main] mapreduce.Job:  map 64% reduce 0%
+2020-03-06 17:57:08,334 INFO  [main] mapreduce.Job:  map 65% reduce 0%
+2020-03-06 17:57:49,203 INFO  [main] mapreduce.Job:  map 66% reduce 0%
+2020-03-06 17:58:29,123 INFO  [main] mapreduce.Job:  map 67% reduce 0%
+2020-03-06 17:59:12,108 INFO  [main] mapreduce.Job:  map 68% reduce 0%
+2020-03-06 17:59:52,911 INFO  [main] mapreduce.Job:  map 69% reduce 0%
+2020-03-06 18:00:34,774 INFO  [main] mapreduce.Job:  map 70% reduce 0%
+2020-03-06 18:01:15,544 INFO  [main] mapreduce.Job:  map 71% reduce 0%
+2020-03-06 18:01:55,542 INFO  [main] mapreduce.Job:  map 72% reduce 0%
+2020-03-06 18:02:37,658 INFO  [main] mapreduce.Job:  map 73% reduce 0%
+2020-03-06 18:03:18,580 INFO  [main] mapreduce.Job:  map 74% reduce 0%
+2020-03-06 18:04:01,499 INFO  [main] mapreduce.Job:  map 75% reduce 0%
+2020-03-06 18:04:42,734 INFO  [main] mapreduce.Job:  map 76% reduce 0%
+2020-03-06 18:05:27,111 INFO  [main] mapreduce.Job:  map 77% reduce 0%
+2020-03-06 18:06:11,220 INFO  [main] mapreduce.Job:  map 78% reduce 0%
+2020-03-06 18:06:53,235 INFO  [main] mapreduce.Job:  map 79% reduce 0%
+2020-03-06 18:07:36,544 INFO  [main] mapreduce.Job:  map 80% reduce 0%
+2020-03-06 18:08:19,720 INFO  [main] mapreduce.Job:  map 81% reduce 0%
+2020-03-06 18:09:01,705 INFO  [main] mapreduce.Job:  map 82% reduce 0%
+2020-03-06 18:09:44,587 INFO  [main] mapreduce.Job:  map 83% reduce 0%
+2020-03-06 18:10:25,789 INFO  [main] mapreduce.Job:  map 84% reduce 0%
+2020-03-06 18:11:07,901 INFO  [main] mapreduce.Job:  map 85% reduce 0%
+2020-03-06 18:11:49,952 INFO  [main] mapreduce.Job:  map 86% reduce 0%
+2020-03-06 18:12:33,142 INFO  [main] mapreduce.Job:  map 87% reduce 0%
+2020-03-06 18:13:16,259 INFO  [main] mapreduce.Job:  map 88% reduce 0%
+2020-03-06 18:14:00,236 INFO  [main] mapreduce.Job:  map 89% reduce 0%
+2020-03-06 18:14:43,013 INFO  [main] mapreduce.Job:  map 90% reduce 0%
+2020-03-06 18:15:24,954 INFO  [main] mapreduce.Job:  map 91% reduce 0%
+2020-03-06 18:16:06,712 INFO  [main] mapreduce.Job:  map 92% reduce 0%
+2020-03-06 18:16:46,258 INFO  [main] mapreduce.Job:  map 93% reduce 0%
+2020-03-06 18:17:26,715 INFO  [main] mapreduce.Job:  map 94% reduce 0%
+2020-03-06 18:18:11,967 INFO  [main] mapreduce.Job:  map 95% reduce 0%
+2020-03-06 18:19:00,220 INFO  [main] mapreduce.Job:  map 96% reduce 0%
+2020-03-06 18:20:09,421 INFO  [main] mapreduce.Job:  map 97% reduce 0%
+2020-03-06 18:21:31,693 INFO  [main] mapreduce.Job:  map 98% reduce 0%
+2020-03-06 18:23:33,981 INFO  [main] mapreduce.Job:  map 99% reduce 0%
+2020-03-06 18:26:09,320 INFO  [main] mapreduce.Job:  map 100% reduce 0%
+2020-03-06 18:27:59,501 INFO  [main] mapreduce.Job: Job job_1576667648124_0092 completed successfully
+2020-03-06 18:27:59,602 INFO  [main] mapreduce.Job: Counters: 33
+	File System Counters
+		FILE: Number of bytes read=0
+		FILE: Number of bytes written=2881253
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		MAPRFS: Number of bytes read=62894811790
+		MAPRFS: Number of bytes written=0
+		MAPRFS: Number of read operations=7677726
+		MAPRFS: Number of large read operations=0
+		MAPRFS: Number of write operations=0
+	Job Counters 
+		Launched map tasks=21
+		Data-local map tasks=14
+		Rack-local map tasks=7
+		Total time spent by all maps in occupied slots (ms)=197657760
+		Total time spent by all reduces in occupied slots (ms)=0
+		Total time spent by all map tasks (ms)=65885920
+		Total vcore-seconds taken by all map tasks=65885920
+		Total megabyte-seconds taken by all map tasks=404803092480
+		DISK_MILLIS_MAPS=9882887
+	Map-Reduce Framework
+		Map input records=3414514505
+		Map output records=3414514505
+		Input split bytes=3255
+		Spilled Records=0
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=13476604
+		CPU time spent (ms)=439608350
+		Physical memory (bytes) snapshot=25841631232
+		Virtual memory (bytes) snapshot=89449209856
+		Total committed heap usage (bytes)=17945853952
+	ImportTsv
+		Bad Lines=0
+	File Input Format Counters 
+		Bytes Read=62894808535
+	File Output Format Counters 
+		Bytes Written=0
+Start Was Finished On Fri Mar  6 18:27:59 HKT 2020
+Start to load Hbase at Wed May 13 16:28:32 HKT 2020
+2020-05-13 16:28:34,932 WARN  [main] util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-05-13 16:28:35,043 INFO  [main] client.ConnectionFactory: ConnectionFactory receives mapr.hbase.default.db(mapr), set clusterType(MAPR_ONLY), user(mapr), hbase_admin_connect_at_construction(false)
+2020-05-13 16:28:35,249 INFO  [main] mapreduce.TableMapReduceUtil: Setting speculative execution off for bulkload operation
+2020-05-13 16:28:35,279 INFO  [main] mapreduce.TableMapReduceUtil: Configured 'hbase.mapreduce.mapr.tablepath' to /HDS_VOL_HBASE/FW_CDR_05
+2020-05-13 16:28:35,346 INFO  [main] Configuration.deprecation: io.bytes.per.checksum is deprecated. Instead, use dfs.bytes-per-checksum
+2020-05-13 16:28:35,660 INFO  [main] Configuration.deprecation: io.bytes.per.checksum is deprecated. Instead, use dfs.bytes-per-checksum
+2020-05-13 16:30:24,9042 ERROR Client fc/client.cc:11339 Thread: 40841 rpc err Connection timed out(110) 28.19 to 172.21.101.187:5692, fid 2065.2070.1216376, upd 1
+2020-05-13 16:30:24,9050 ERROR Cidcache fc/cidcache.cc:1742 Thread: 40841 ReportNodeFailure failed, error Read-only file system(30) for cid 2065, server: 172.21.101.187:5692 CLDB: 172.21.101.188:7222
+2020-05-13 16:30:24,9053 ERROR Cidcache fc/cidcache.cc:1742 Thread: 40841 ReportNodeFailure failed, error Read-only file system(30) for cid 2065, server: 172.21.101.187:5692 CLDB: 172.21.101.188:7222
+2020-05-13 16:30:27,4375 ERROR Client fc/client.cc:11339 Thread: 41024 rpc err Connection timed out(110) 28.123 to 172.21.101.187:5692, fid 2065.2070.1216376, upd 1
+2020-05-13 16:30:27,5461 ERROR Client fc/client.cc:10573 Thread: 41024 <DoWriteRPC: write resp for file htrace-core-3.1.0-incubating.jar, error 110, fid 2065.2070.1216376, primary fid 2065.2070.1216376, node 172.21.101.187:5692, off 0,, count 65536
+2020-05-13 16:32:16,7155 ERROR Client fc/client.cc:10573 Thread: 41024 <DoWriteRPC: write resp for file htrace-core-3.1.0-incubating.jar, error 110, fid 2065.2070.1216376, primary fid 2065.2070.1216376, node 172.21.101.187:5692, off 0,, count 65536
+2020-05-13 16:34:06,3457 ERROR Client fc/client.cc:10573 Thread: 41024 <DoWriteRPC: write resp for file htrace-core-3.1.0-incubating.jar, error 110, fid 2065.2070.1216376, primary fid 2065.2070.1216376, node 172.21.101.187:5692, off 0,, count 65536
+2020-05-13 16:35:55,7208 ERROR Client fc/client.cc:10573 Thread: 41024 <DoWriteRPC: write resp for file htrace-core-3.1.0-incubating.jar, error 110, fid 2065.2070.1216376, primary fid 2065.2070.1216376, node 172.21.101.187:5692, off 0,, count 65536
+2020-05-13 16:37:45,1487 ERROR Client fc/client.cc:10573 Thread: 41024 <DoWriteRPC: write resp for file htrace-core-3.1.0-incubating.jar, error 110, fid 2065.2070.1216376, primary fid 2065.2070.1216376, node 172.21.101.187:5692, off 0,, count 65536
+2020-05-13 16:39:34,4522 ERROR Client fc/client.cc:10573 Thread: 41024 <DoWriteRPC: write resp for file htrace-core-3.1.0-incubating.jar, error 110, fid 2065.2070.1216376, primary fid 2065.2070.1216376, node 172.21.101.187:5692, off 0,, count 65536
+2020-05-13 16:41:23,8257 ERROR Client fc/client.cc:10573 Thread: 41024 <DoWriteRPC: write resp for file htrace-core-3.1.0-incubating.jar, error 110, fid 2065.2070.1216376, primary fid 2065.2070.1216376, node 172.21.101.187:5692, off 0,, count 65536
+2020-05-13 16:43:13,3008 ERROR Client fc/client.cc:10573 Thread: 41024 <DoWriteRPC: write resp for file htrace-core-3.1.0-incubating.jar, error 110, fid 2065.2070.1216376, primary fid 2065.2070.1216376, node 172.21.101.187:5692, off 0,, count 65536
+2020-05-13 16:45:02,5832 ERROR Client fc/client.cc:10573 Thread: 41024 <DoWriteRPC: write resp for file htrace-core-3.1.0-incubating.jar, error 110, fid 2065.2070.1216376, primary fid 2065.2070.1216376, node 172.21.101.187:5692, off 0,, count 65536
+2020-05-13 16:46:52,0270 ERROR Client fc/client.cc:10573 Thread: 41024 <DoWriteRPC: write resp for file htrace-core-3.1.0-incubating.jar, error 110, fid 2065.2070.1216376, primary fid 2065.2070.1216376, node 172.21.101.187:5692, off 0,, count 65536
+2020-05-13 16:48:41,3287 ERROR Client fc/client.cc:10573 Thread: 41024 <DoWriteRPC: write resp for file htrace-core-3.1.0-incubating.jar, error 110, fid 2065.2070.1216376, primary fid 2065.2070.1216376, node 172.21.101.187:5692, off 0,, count 65536
+2020-05-13 16:50:30,5711 ERROR Client fc/client.cc:10573 Thread: 41024 <DoWriteRPC: write resp for file htrace-core-3.1.0-incubating.jar, error 110, fid 2065.2070.1216376, primary fid 2065.2070.1216376, node 172.21.101.187:5692, off 0,, count 65536
+2020-05-13 16:52:20,0836 ERROR Client fc/client.cc:10573 Thread: 41024 <DoWriteRPC: write resp for file htrace-core-3.1.0-incubating.jar, error 110, fid 2065.2070.1216376, primary fid 2065.2070.1216376, node 172.21.101.187:5692, off 0,, count 65536
+2020-05-13 16:54:09,5283 ERROR Client fc/client.cc:10573 Thread: 41024 <DoWriteRPC: write resp for file htrace-core-3.1.0-incubating.jar, error 110, fid 2065.2070.1216376, primary fid 2065.2070.1216376, node 172.21.101.187:5692, off 0,, count 65536
+2020-05-13 16:55:58,9171 ERROR Client fc/client.cc:10573 Thread: 41024 <DoWriteRPC: write resp for file htrace-core-3.1.0-incubating.jar, error 110, fid 2065.2070.1216376, primary fid 2065.2070.1216376, node 172.21.101.187:5692, off 0,, count 65536
+2020-05-13 17:03:23,6020 ERROR Client fc/client.cc:11339 Thread: 40841 rpc err Connection timed out(110) 28.19 to 172.21.101.187:5692, fid 2065.2078.1216392, upd 1
+2020-05-13 17:03:26,5753 ERROR Client fc/client.cc:11339 Thread: 41036 rpc err Connection timed out(110) 28.123 to 172.21.101.187:5692, fid 2065.2078.1216392, upd 1
+2020-05-13 17:03:26,8772 ERROR Client fc/client.cc:10573 Thread: 41036 <DoWriteRPC: write resp for file hbase-prefix-tree-1.1.8-mapr-1904.jar, error 110, fid 2065.2078.1216392, primary fid 2065.2078.1216392, node 172.21.101.187:5692, off 0,, count 65536
+2020-05-13 17:05:16,4552 ERROR Client fc/client.cc:10573 Thread: 41036 <DoWriteRPC: write resp for file hbase-prefix-tree-1.1.8-mapr-1904.jar, error 110, fid 2065.2078.1216392, primary fid 2065.2078.1216392, node 172.21.101.187:5692, off 0,, count 65536
+2020-05-13 17:07:05,9642 ERROR Client fc/client.cc:10573 Thread: 41036 <DoWriteRPC: write resp for file hbase-prefix-tree-1.1.8-mapr-1904.jar, error 110, fid 2065.2078.1216392, primary fid 2065.2078.1216392, node 172.21.101.187:5692, off 0,, count 65536
+2020-05-13 17:08:55,3140 ERROR Client fc/client.cc:10573 Thread: 41036 <DoWriteRPC: write resp for file hbase-prefix-tree-1.1.8-mapr-1904.jar, error 110, fid 2065.2078.1216392, primary fid 2065.2078.1216392, node 172.21.101.187:5692, off 0,, count 65536
+2020-05-13 17:10:44,9276 ERROR Client fc/client.cc:10573 Thread: 41036 <DoWriteRPC: write resp for file hbase-prefix-tree-1.1.8-mapr-1904.jar, error 110, fid 2065.2078.1216392, primary fid 2065.2078.1216392, node 172.21.101.187:5692, off 0,, count 65536
+2020-05-13 17:12:34,4277 ERROR Client fc/client.cc:10573 Thread: 41036 <DoWriteRPC: write resp for file hbase-prefix-tree-1.1.8-mapr-1904.jar, error 110, fid 2065.2078.1216392, primary fid 2065.2078.1216392, node 172.21.101.187:5692, off 0,, count 65536
+2020-05-13 17:14:23,8181 ERROR Client fc/client.cc:10573 Thread: 41036 <DoWriteRPC: write resp for file hbase-prefix-tree-1.1.8-mapr-1904.jar, error 110, fid 2065.2078.1216392, primary fid 2065.2078.1216392, node 172.21.101.187:5692, off 0,, count 65536
+2020-05-13 17:16:13,1921 ERROR Client fc/client.cc:10573 Thread: 41036 <DoWriteRPC: write resp for file hbase-prefix-tree-1.1.8-mapr-1904.jar, error 110, fid 2065.2078.1216392, primary fid 2065.2078.1216392, node 172.21.101.187:5692, off 0,, count 65536
+2020-05-13 17:18:02,4648 ERROR Client fc/client.cc:10573 Thread: 41036 <DoWriteRPC: write resp for file hbase-prefix-tree-1.1.8-mapr-1904.jar, error 110, fid 2065.2078.1216392, primary fid 2065.2078.1216392, node 172.21.101.187:5692, off 0,, count 65536
+2020-05-13 17:19:51,9532 ERROR Client fc/client.cc:10573 Thread: 41036 <DoWriteRPC: write resp for file hbase-prefix-tree-1.1.8-mapr-1904.jar, error 110, fid 2065.2078.1216392, primary fid 2065.2078.1216392, node 172.21.101.187:5692, off 0,, count 65536
+2020-05-13 17:21:41,4221 ERROR Client fc/client.cc:10573 Thread: 41036 <DoWriteRPC: write resp for file hbase-prefix-tree-1.1.8-mapr-1904.jar, error 110, fid 2065.2078.1216392, primary fid 2065.2078.1216392, node 172.21.101.187:5692, off 0,, count 65536
+2020-05-13 17:23:30,6905 ERROR Client fc/client.cc:10573 Thread: 41036 <DoWriteRPC: write resp for file hbase-prefix-tree-1.1.8-mapr-1904.jar, error 110, fid 2065.2078.1216392, primary fid 2065.2078.1216392, node 172.21.101.187:5692, off 0,, count 65536
+2020-05-13 17:30:52,0752 ERROR Client fc/client.cc:11339 Thread: 40841 rpc err Connection timed out(110) 28.19 to 172.21.101.187:5692, fid 2065.2092.1216420, upd 1
+2020-05-13 17:30:54,8296 ERROR Client fc/client.cc:11339 Thread: 40997 rpc err Connection timed out(110) 28.123 to 172.21.101.187:5692, fid 2065.2092.1216420, upd 1
+2020-05-13 17:30:55,0004 ERROR Client fc/client.cc:10573 Thread: 40997 <DoWriteRPC: write resp for file mapr-hbase-6.1.0-mapr.jar, error 110, fid 2065.2092.1216420, primary fid 2065.2092.1216420, node 172.21.101.187:5692, off 0,, count 65536
+2020-05-13 17:32:44,4385 ERROR Client fc/client.cc:10573 Thread: 40997 <DoWriteRPC: write resp for file mapr-hbase-6.1.0-mapr.jar, error 110, fid 2065.2092.1216420, primary fid 2065.2092.1216420, node 172.21.101.187:5692, off 0,, count 65536
+2020-05-13 17:48:13,4814 ERROR Client fc/client.cc:11339 Thread: 40841 rpc err Connection timed out(110) 28.19 to 172.21.101.187:5692, fid 2065.2116.1216468, upd 1
+2020-05-13 17:48:16,8962 ERROR Client fc/client.cc:11339 Thread: 41033 rpc err Connection timed out(110) 28.123 to 172.21.101.187:5692, fid 2065.2116.1216468, upd 1
+2020-05-13 17:48:17,3699 ERROR Client fc/client.cc:10573 Thread: 41033 <DoWriteRPC: write resp for file guava-12.0.1.jar, error 110, fid 2065.2116.1216468, primary fid 2065.2116.1216468, node 172.21.101.187:5692, off 0,, count 65536
+2020-05-13 17:50:06,6490 ERROR Client fc/client.cc:10573 Thread: 41033 <DoWriteRPC: write resp for file guava-12.0.1.jar, error 110, fid 2065.2116.1216468, primary fid 2065.2116.1216468, node 172.21.101.187:5692, off 0,, count 65536
+2020-05-13 17:51:56,1702 ERROR Client fc/client.cc:10573 Thread: 41033 <DoWriteRPC: write resp for file guava-12.0.1.jar, error 110, fid 2065.2116.1216468, primary fid 2065.2116.1216468, node 172.21.101.187:5692, off 0,, count 65536
+2020-05-13 17:53:45,3754 ERROR Client fc/client.cc:10573 Thread: 41033 <DoWriteRPC: write resp for file guava-12.0.1.jar, error 110, fid 2065.2116.1216468, primary fid 2065.2116.1216468, node 172.21.101.187:5692, off 0,, count 65536
+2020-05-13 17:55:34,5442 ERROR Client fc/client.cc:10573 Thread: 41033 <DoWriteRPC: write resp for file guava-12.0.1.jar, error 110, fid 2065.2116.1216468, primary fid 2065.2116.1216468, node 172.21.101.187:5692, off 0,, count 65536
+2020-05-13 17:57:24,0366 ERROR Client fc/client.cc:10573 Thread: 41033 <DoWriteRPC: write resp for file guava-12.0.1.jar, error 110, fid 2065.2116.1216468, primary fid 2065.2116.1216468, node 172.21.101.187:5692, off 0,, count 65536
+2020-05-13 18:16:23,850 INFO  [main] input.FileInputFormat: Total input paths to process : 23
+2020-05-13 18:16:23,956 INFO  [main] mapreduce.JobSubmitter: number of splits:23
+2020-05-13 18:22:04,2187 ERROR Client fc/client.cc:11339 Thread: 41030 rpc err Connection reset by peer(104) 28.123 to 172.21.101.188:5692, fid 2247.50.920558, upd 1
+2020-05-13 18:22:05,2202 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.187:7222
+2020-05-13 18:22:05,2202 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.187:7222
+2020-05-13 18:22:06,2208 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.187:7222
+2020-05-13 18:22:06,2208 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.187:7222
+2020-05-13 18:22:07,2213 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.187:7223
+2020-05-13 18:22:07,2213 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.187:7223
+2020-05-13 18:22:08,2215 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.188:7223
+2020-05-13 18:22:08,2215 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.188:7223
+2020-05-13 18:22:10,2241 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.188:7222
+2020-05-13 18:22:10,2241 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.188:7222
+2020-05-13 18:22:11,2246 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.187:7222
+2020-05-13 18:22:11,2246 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.187:7222
+2020-05-13 18:22:12,2252 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.187:7223
+2020-05-13 18:22:12,2252 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.187:7223
+2020-05-13 18:22:13,2255 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.188:7223
+2020-05-13 18:22:13,2255 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.188:7223
+2020-05-13 18:22:14,2257 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.188:7222
+2020-05-13 18:22:14,2257 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.188:7222
+2020-05-13 18:22:14,2258 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 18:22:28,2264 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.187:7222
+2020-05-13 18:22:28,2264 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.187:7222
+2020-05-13 18:22:28,2264 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 18:22:43,2270 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.187:7223
+2020-05-13 18:22:43,2270 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.187:7223
+2020-05-13 18:22:43,2270 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 18:22:59,2273 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.188:7223
+2020-05-13 18:22:59,2273 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.188:7223
+2020-05-13 18:22:59,2273 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 18:23:16,2278 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.188:7222
+2020-05-13 18:23:16,2278 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.188:7222
+2020-05-13 18:23:16,2278 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 18:23:34,2285 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.187:7222
+2020-05-13 18:23:34,2285 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.187:7222
+2020-05-13 18:23:34,2285 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 18:23:53,2292 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.187:7223
+2020-05-13 18:23:53,2292 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.187:7223
+2020-05-13 18:23:53,2292 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 18:24:13,2297 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.188:7223
+2020-05-13 18:24:13,2297 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.188:7223
+2020-05-13 18:24:13,2297 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 18:24:34,2302 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.188:7222
+2020-05-13 18:24:34,2302 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.188:7222
+2020-05-13 18:24:34,2302 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 18:24:56,2309 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.187:7222
+2020-05-13 18:24:56,2309 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.187:7222
+2020-05-13 18:24:56,2310 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 18:25:19,2316 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.187:7223
+2020-05-13 18:25:19,2316 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.187:7223
+2020-05-13 18:25:19,2317 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 18:25:43,2321 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.188:7223
+2020-05-13 18:25:43,2321 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.188:7223
+2020-05-13 18:25:43,2322 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 18:26:08,2326 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.188:7222
+2020-05-13 18:26:08,2326 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.188:7222
+2020-05-13 18:26:08,2327 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 18:26:34,2334 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.187:7222
+2020-05-13 18:26:34,2334 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.187:7222
+2020-05-13 18:26:34,2334 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 18:27:01,2340 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.187:7223
+2020-05-13 18:27:01,2340 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.187:7223
+2020-05-13 18:27:01,2340 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 18:27:29,2344 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.188:7223
+2020-05-13 18:27:29,2344 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.188:7223
+2020-05-13 18:27:29,2345 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 18:27:58,2349 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.188:7222
+2020-05-13 18:27:58,2349 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.188:7222
+2020-05-13 18:27:58,2349 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 18:28:28,2355 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.187:7222
+2020-05-13 18:28:28,2355 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.187:7222
+2020-05-13 18:28:28,2355 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 18:28:59,2361 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.187:7223
+2020-05-13 18:28:59,2361 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.187:7223
+2020-05-13 18:28:59,2362 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 18:29:31,2366 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.188:7223
+2020-05-13 18:29:31,2366 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.188:7223
+2020-05-13 18:29:31,2366 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 18:30:04,2371 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.188:7222
+2020-05-13 18:30:04,2371 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.188:7222
+2020-05-13 18:30:04,2371 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 18:30:38,2376 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.187:7222
+2020-05-13 18:30:38,2376 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.187:7222
+2020-05-13 18:30:38,2376 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 18:31:13,2382 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.187:7223
+2020-05-13 18:31:13,2382 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.187:7223
+2020-05-13 18:31:13,2382 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 18:31:49,2386 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.188:7223
+2020-05-13 18:31:49,2386 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.188:7223
+2020-05-13 18:31:49,2386 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 18:32:26,2391 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.188:7222
+2020-05-13 18:32:26,2391 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.188:7222
+2020-05-13 18:32:26,2391 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 18:33:04,2395 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.187:7222
+2020-05-13 18:33:04,2395 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.187:7222
+2020-05-13 18:33:04,2396 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 18:33:43,2401 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.187:7223
+2020-05-13 18:33:43,2401 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.187:7223
+2020-05-13 18:33:43,2401 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 18:34:23,2404 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.188:7223
+2020-05-13 18:34:23,2404 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.188:7223
+2020-05-13 18:34:23,2404 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 18:35:04,2408 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.188:7222
+2020-05-13 18:35:04,2408 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.188:7222
+2020-05-13 18:35:04,2408 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 18:35:46,2414 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.187:7222
+2020-05-13 18:35:46,2414 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.187:7222
+2020-05-13 18:35:46,2414 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 18:36:29,2420 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.187:7223
+2020-05-13 18:36:29,2420 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.187:7223
+2020-05-13 18:36:29,2420 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 18:37:13,2424 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.188:7223
+2020-05-13 18:37:13,2424 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.188:7223
+2020-05-13 18:37:13,2424 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 18:37:58,2427 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.188:7222
+2020-05-13 18:37:58,2427 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.188:7222
+2020-05-13 18:37:58,2427 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 18:38:44,2434 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.187:7222
+2020-05-13 18:38:44,2434 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.187:7222
+2020-05-13 18:38:44,2434 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 18:39:31,2440 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.187:7223
+2020-05-13 18:39:31,2440 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.187:7223
+2020-05-13 18:39:31,2440 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 18:40:19,2445 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.188:7223
+2020-05-13 18:40:19,2445 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.188:7223
+2020-05-13 18:40:19,2445 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 18:41:08,2449 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.188:7222
+2020-05-13 18:41:08,2449 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.188:7222
+2020-05-13 18:41:08,2449 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 18:41:58,2455 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.187:7222
+2020-05-13 18:41:58,2455 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.187:7222
+2020-05-13 18:41:58,2455 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 18:42:49,2460 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.187:7223
+2020-05-13 18:42:49,2460 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.187:7223
+2020-05-13 18:42:49,2460 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 18:43:41,2464 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.188:7223
+2020-05-13 18:43:41,2464 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.188:7223
+2020-05-13 18:43:41,2464 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 18:44:34,2469 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.188:7222
+2020-05-13 18:44:34,2469 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.188:7222
+2020-05-13 18:44:34,2469 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 18:45:28,2475 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.187:7222
+2020-05-13 18:45:28,2475 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.187:7222
+2020-05-13 18:45:28,2476 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 18:46:23,2481 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.187:7223
+2020-05-13 18:46:23,2481 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.187:7223
+2020-05-13 18:46:23,2481 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 18:47:19,2486 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.188:7223
+2020-05-13 18:47:19,2486 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.188:7223
+2020-05-13 18:47:19,2486 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 18:48:16,2490 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.188:7222
+2020-05-13 18:48:16,2491 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.188:7222
+2020-05-13 18:48:16,2491 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 18:49:14,2497 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.187:7222
+2020-05-13 18:49:14,2497 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.187:7222
+2020-05-13 18:49:14,2498 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 18:50:13,2504 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.187:7223
+2020-05-13 18:50:13,2504 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.187:7223
+2020-05-13 18:50:13,2505 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 18:51:13,2510 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.188:7223
+2020-05-13 18:51:13,2510 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.188:7223
+2020-05-13 18:51:13,2510 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 18:52:14,2515 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.188:7222
+2020-05-13 18:52:14,2515 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.188:7222
+2020-05-13 18:52:14,2515 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 18:53:16,2521 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.187:7222
+2020-05-13 18:53:16,2521 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.187:7222
+2020-05-13 18:53:16,2521 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 18:54:19,2528 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.187:7223
+2020-05-13 18:54:19,2528 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.187:7223
+2020-05-13 18:54:19,2528 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 18:55:23,2534 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.188:7223
+2020-05-13 18:55:23,2534 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.188:7223
+2020-05-13 18:55:23,2534 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 18:56:28,2538 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.188:7222
+2020-05-13 18:56:28,2538 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.188:7222
+2020-05-13 18:56:28,2538 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 18:57:34,2544 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.187:7222
+2020-05-13 18:57:34,2544 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.187:7222
+2020-05-13 18:57:34,2544 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 18:58:41,2551 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.187:7223
+2020-05-13 18:58:41,2551 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.187:7223
+2020-05-13 18:58:41,2551 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 18:59:49,2555 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.188:7223
+2020-05-13 18:59:49,2555 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.188:7223
+2020-05-13 18:59:49,2555 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 19:00:58,2558 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.188:7222
+2020-05-13 19:00:58,2558 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.188:7222
+2020-05-13 19:00:58,2558 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 19:02:08,2564 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.187:7222
+2020-05-13 19:02:08,2564 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.187:7222
+2020-05-13 19:02:08,2564 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 19:03:19,2571 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.187:7223
+2020-05-13 19:03:19,2571 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.187:7223
+2020-05-13 19:03:19,2571 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 19:04:31,2575 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.188:7223
+2020-05-13 19:04:31,2575 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.188:7223
+2020-05-13 19:04:31,2575 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 19:05:44,2580 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.188:7222
+2020-05-13 19:05:44,2580 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.188:7222
+2020-05-13 19:05:44,2580 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 19:06:58,2586 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.187:7222
+2020-05-13 19:06:58,2586 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.187:7222
+2020-05-13 19:06:58,2586 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 19:08:13,2591 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.187:7223
+2020-05-13 19:08:13,2591 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.187:7223
+2020-05-13 19:08:13,2591 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 19:09:29,2596 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.188:7223
+2020-05-13 19:09:29,2596 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.188:7223
+2020-05-13 19:09:29,2596 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 19:10:46,2601 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.188:7222
+2020-05-13 19:10:46,2601 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.188:7222
+2020-05-13 19:10:46,2601 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 19:12:04,2608 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.187:7222
+2020-05-13 19:12:04,2608 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.187:7222
+2020-05-13 19:12:04,2608 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 19:13:23,2615 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.187:7223
+2020-05-13 19:13:23,2615 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.187:7223
+2020-05-13 19:13:23,2615 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 19:14:43,2619 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.188:7223
+2020-05-13 19:14:43,2619 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.188:7223
+2020-05-13 19:14:43,2619 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 19:16:04,2623 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.188:7222
+2020-05-13 19:16:04,2623 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.188:7222
+2020-05-13 19:16:04,2623 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 19:17:26,2630 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.187:7222
+2020-05-13 19:17:26,2630 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.187:7222
+2020-05-13 19:17:26,2631 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 19:18:49,2637 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.187:7223
+2020-05-13 19:18:49,2637 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.187:7223
+2020-05-13 19:18:49,2637 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 19:20:13,2641 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.188:7223
+2020-05-13 19:20:13,2641 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.188:7223
+2020-05-13 19:20:13,2641 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 19:21:38,2646 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.188:7222
+2020-05-13 19:21:38,2646 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.188:7222
+2020-05-13 19:21:38,2646 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 19:23:04,2652 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.187:7222
+2020-05-13 19:23:04,2652 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.187:7222
+2020-05-13 19:23:04,2653 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 19:24:31,2659 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.187:7223
+2020-05-13 19:24:31,2659 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.187:7223
+2020-05-13 19:24:31,2659 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 19:25:59,2664 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.188:7223
+2020-05-13 19:25:59,2664 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.188:7223
+2020-05-13 19:25:59,2664 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 19:27:28,2668 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.188:7222
+2020-05-13 19:27:28,2668 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.188:7222
+2020-05-13 19:27:28,2668 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 19:28:58,2674 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.187:7222
+2020-05-13 19:28:58,2674 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.187:7222
+2020-05-13 19:28:58,2674 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 19:30:29,2680 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.187:7223
+2020-05-13 19:30:29,2680 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.187:7223
+2020-05-13 19:30:29,2680 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 19:32:01,2685 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.188:7223
+2020-05-13 19:32:01,2685 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.188:7223
+2020-05-13 19:32:01,2685 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+2020-05-13 19:33:34,2689 ERROR Cidcache fc/cidcache.cc:3955 Thread: 41030 Received error Connection reset by peer(104) while trying to reach CLDB: 172.21.101.188:7222
+2020-05-13 19:33:34,2689 ERROR Cidcache fc/cidcache.cc:1742 Thread: 41030 ReportNodeFailure failed, error Connection reset by peer(104) for cid 2247, server: 172.21.101.188:5692 CLDB: 172.21.101.188:7222
+2020-05-13 19:33:34,2689 ERROR Cidcache fc/cidcache.cc:2915 Thread: 41030 MoveToNextCldb: No CLDB entries, cannot run, sleeping 5 seconds!
+dw_load_fwcdr_maprdb.sh: line 30: 40421 Killed                  java -cp "`hbase classpath`" org.apache.hadoop.hbase.mapreduce.ImportTsv -Dmapreduce.tasktracker.map.tasks.maximum=30 '-Dimporttsv.separator=|' -Dcreate.table=no -Dimporttsv.skip.bad.lines=false -Dimporttsv.columns="HBASE_ROW_KEY,cf:start_datetime,cf:src,cf:json_value" /HDS_VOL_HBASE/FW_CDR_${mon} maprfs:///HDS_VOL_HIVE/FWCDR/start_date=${filedate}/fwcdr_ldr*gz 2>&1
+     40422 Done                    | tee -a ${LOGFILE}
+Start Was Finished On Wed May 13 19:34:58 HKT 2020

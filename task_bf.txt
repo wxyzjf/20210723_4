@@ -1,0 +1,135 @@
+Hi,Eloise
+            List all the job planing for put live as follow.Please do it after ict enhancement finish.
+            Remember do not clean up the mig_adw table .Prepare the script and loading  for checking first.
+
+1)	Put live the bm_cnc_comm_h job 
+
+            Sequence Job for : Call all job
+
+New loading  job for : mig_adw.bm_cnc_staff_list
+New loading job for : loading BM_CNC_COMM_OVERR_ROAM_H (delete specify month and insert in append mode)
+            New loading job for : unload the output report (BM_CNC_COMM_H , BM_CNC_COMM_ROAM_H with specify month)
+Change the schema in script for put live
+
+
+2)	Put live the BM_CRC_COMM_H 
+
+      Sequence Job for : Call all job
+
+
+New loading job for : loading BM_CRC_COMM_OVERR_ROAM_H (delete specify month and insert in append mode)
+      New loading job for : unload the output report (BM_CRC_COMM_H , BM_CRC_COMM_ROAM_H with specify month)
+Change the schema in script for put live
+
+3)	BM_DRS_COMM_H
+Finish the DRS job put live 
+
+4)	BM_SMS_COMM_H
+
+8 every month
+
+
+============================================================================
+
+crc cnc C job 
+/opt/etl/prd/etl/APP/ADW> ls|grep -e CRC -e CNC
+
+B_BM_CNC_COMM   [done]
+B_BM_CRC_COMM   [done]
+B_BM_CNC_COMM_PLAN_REF   [done]
+
+B_BM_CNC_STAFF_LIST [done]  
+B_BM_CRC_STAFF_LIST [done]  
+
+u job:done  [date] 
+BM_CNC_COMM_H
+BM_CNC_COMM_ROAM_H
+BM_CRC_COMM_H
+BM_CRC_COMM_ROAM_H
+
+ict C job 
+B_BM_ICT_COMM_RPT   [done] 
+B_BM_COMM_RPT_ICT_REF  [done]
+--------------------------------------------------------------------------
+
+4 error
+D_BM_CNC_COMM_PLAN_REF [done call by c job] [5 every month]?
+
+mig_adw.BM_COMM_RPT_ICT_EXCOST [ict01.pl]::3 every month [wait reply by user]
+R:\TEAMWORK\CAD\BM - ICT\Fixed Network Services\Resell Order\SMC Resell Order_HGC_UAT
+
+-------------------------
+
+all job date check
+
+all job when put live set schedula set tx_date = comm_mth + 1   roam drs ict crc cnc   done
+BM_STAFF_LIST job stream crc cnc drs ict
+
+ict
+ict table no view
+weekly work
+all job form
+corp bm and bm staff list
+jennt mail  add col and folder
+job list
+corp doc
+cognos: sms ict drs all H table?
+
+==================================================================================
+D_BM_STAFF_LIST::[done 3 every month]
+
+ICT D JOB::[done 3 every month]
+
+B_BM_DRS_COMM_H  done (but need to put_live bm_staff_list) [00 08 08 * * dependency bm_staff_list ]
+
+MIG_ADW.BM_CNC_COMM_PAR_REF  [cnc03.pl  cnc04.pl]  manual in prd_adw INSERT done
+MIG_ADW.BM_CRC_COMM_PAR_REF  [crc02.pl  crc03.pl]  manual in prd_adw INSERT done
+MIG_ADW.HS_FUND_FINANCE      [cnc03.pl  crc03.pl]  done
+
+v6
+MIG_ADW.BM_BILL_CODE_TYPE_REF  [cnc01.pl]  done
+MIG_ADW.BM_COMM_RPT_ICT_REF [drs01.pl]  done
+mig_adw.BM_COMM_RPT_ICT_REF [ict01.pl]  done
+
+views： done
+BM_CNC_COMM_OVERR_ROAM_H
+BM_CRC_COMM_OVERR_ROAM_H
+BM_CNC_COMM_H
+BM_CNC_COMM_ROAM_H
+BM_CRC_COMM_H
+BM_CRC_COMM_ROAM_H
+BM_DRS_COMM_H
+
+ccs sms crontab  [done]
+
+loading job:
+BM_CNC_COMM_OVERR_ROAM_H    [done wait kevin put live src file]
+BM_CRC_COMM_OVERR_ROAM_H    [done wait kevin put live src file]
+B_BM_CNC_COMM_OVERR_ROAM_H   [done]
+B_BM_CRC_COMM_OVERR_ROAM_H   [done]
+
+BM_SMS_COMM_H 8 every month [done]
+BM_DRS_COMM_H 8 every month [done]
+
+
+
+
+===============================================================================
+corp   [C job and put live 3 d job and ea and run date and send mail or ftp (send mail who)]
+manual run 3 d job according src file to set tx_date = src file date + 4
+comm = src file date + 3
+run b job set the same tx_date
+manual add final data to report
+report date = comm 
+
+idp 2
+shk
+fwcdr
+
+SMS [done but schedule]
+
+
+
+
+
+

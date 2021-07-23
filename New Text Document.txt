@@ -1,0 +1,178 @@
+
+sqlplus /@$TDPID
+delete prd_etl.etl_received_file where etl_job='D_BM_STAFF_LIST';
+update prd_etl.etl_job set last_jobstatus='Ready' where etl_job = 'D_BM_STAFF_LIST';
+update prd_etl.etl_job set last_txdate=TO_DATE('2020-06-01','YYYY-MM-DD') where etl_job = 'D_BM_STAFF_LIST';
+update prd_etl.etl_src_file set last_process_start_ts=null where JOB_NAME='D_BM_STAFF_LIST';
+commit;
+touch /opt/etl/prd/etl/preprocess/USR/rerun/d_bm_staff_list.rerun.20210701
+
+
+
+
+sqlplus /@$TDPID
+insert into prd_etl.etl_src_File(JOB_NAME,SYS_NAME,FILENAME_MASK,FILENAME_DATE_FORMAT,DATA_PATH,
+DATE_OFFSET,MONTH_OFFSET,
+CTRL_FILE_MASK,CTRL_FILE_OFFSET,CTRL_FILE_DATE_FORMAT,FILE_LOCATE_TYPE,
+CHECK_EA_FAIL_DIR_FLG,AS_OF_DATE_DETERMINE_METH,CHECK_ZERO_FILE_SIZE,LAST_PROCESS_STAT)
+values('D_BM_CNC_COMM_OVERR_ROAM_H','USR','over.csv',' ','/opt/etl/prd/etl/APP/USR/D_BM_CNC_COMM_OVERR_ROAM_H/bin/reload',
+0,0,
+' ',0,'%Y%m%d','copy',
+'N','T','N','C');
+commit;
+
+sqlplus /@$TDPID
+delete prd_etl.etl_received_file where etl_job='D_BM_CNC_COMM_OVERR_ROAM_H';
+update prd_etl.etl_job set last_jobstatus='Ready' where etl_job = 'D_BM_CNC_COMM_OVERR_ROAM_H';
+update prd_etl.etl_job set last_txdate=TO_DATE('2020-06-12','YYYY-MM-DD') where etl_job = 'D_BM_CNC_COMM_OVERR_ROAM_H';
+update prd_etl.etl_src_file set last_process_start_ts=null where JOB_NAME='D_BM_CNC_COMM_OVERR_ROAM_H';
+
+commit;
+touch /opt/etl/prd/etl/preprocess/USR/rerun/d_bm_cnc_comm_overr_roam_h.rerun.20200712
+
+
+
+sqlplus /@$TDPID
+insert into prd_etl.etl_src_File(JOB_NAME,SYS_NAME,FILENAME_MASK,FILENAME_DATE_FORMAT,DATA_PATH,
+DATE_OFFSET,MONTH_OFFSET,
+CTRL_FILE_MASK,CTRL_FILE_OFFSET,CTRL_FILE_DATE_FORMAT,FILE_LOCATE_TYPE,
+CHECK_EA_FAIL_DIR_FLG,AS_OF_DATE_DETERMINE_METH,CHECK_ZERO_FILE_SIZE,LAST_PROCESS_STAT)
+values('D_BM_CRC_COMM_OVERR_ROAM_H','USR','over.csv',' ','/opt/etl/prd/etl/USR/ADW/D_BM_CRC_COMM_OVERR_ROAM_H/bin/reload',
+0,0,
+' ',0,'%Y%m%d','copy',
+'N','T','N','C');
+commit;
+
+sqlplus /@$TDPID
+delete prd_etl.etl_received_file where etl_job='D_BM_CRC_COMM_OVERR_ROAM_H';
+update prd_etl.etl_job set last_jobstatus='Ready' where etl_job = 'D_BM_CRC_COMM_OVERR_ROAM_H';
+update prd_etl.etl_job set last_txdate=TO_DATE('2020-06-12','YYYY-MM-DD') where etl_job = 'D_BM_CRC_COMM_OVERR_ROAM_H';
+update prd_etl.etl_src_file set last_process_start_ts=null where JOB_NAME='D_BM_CRC_COMM_OVERR_ROAM_H';
+
+commit;
+touch /opt/etl/prd/etl/preprocess/USR/rerun/d_bm_crc_comm_overr_roam_h.rerun.20200712
+
+
+
+
+
+set define on;
+define tx_date = trunc(to_date('$etlvar::TXDATE','YYYY-MM-DD'),'MM');
+define comm_mth = add_months(&tx_date,-1);
+define trx_mth = add_months(&comm_mth,-4);
+define trx_s_date = add_months(&comm_mth,-4);
+define trx_e_date = add_months(&comm_mth,-3)-1;
+
+
+set define on;
+define trx_mth = add_months(to_date('$etlvar::TXDATE','YYYY-MM-DD'),-4);
+define trx_s_date = add_months(to_date('$etlvar::TXDATE','YYYY-MM-DD'),-4);
+define trx_e_date = add_months(to_date('$etlvar::TXDATE','YYYY-MM-DD'),-3)-1;
+define comm_mth = trunc(to_date('$etlvar::TXDATE','YYYY-MM-DD'),'MM');
+
+
+
+/opt/etl/filein/DataStage/USR/DATA/d_bm_comm_rpt_ict_ref_001.dat_BM_Bill_Code_Type_v6_Copy.txt_20200701
+
+
+sqlplus /@$TDPID
+delete prd_etl.etl_received_file where etl_job='D_BM_COMM_RPT_ICT_REF';
+update prd_etl.etl_job set last_jobstatus='Ready' where etl_job = 'D_BM_COMM_RPT_ICT_REF';
+update prd_etl.etl_job set last_txdate=TO_DATE('2021-07-19','YYYY-MM-DD') where etl_job = 'D_BM_COMM_RPT_ICT_REF';
+update prd_etl.etl_src_file set last_process_start_ts=null where JOB_NAME='D_BM_COMM_RPT_ICT_REF';
+
+commit;
+quit;
+
+
+touch /opt/etl/prd/etl/preprocess/USR/rerun/d_bm_comm_rpt_ict_ref.rerun.20210720
+
+touch /opt/etl/prd/etl/preprocess/USR/rerun/d_bm_comm_rpt_ict_ref.rerun.20210715
+
+
+lftp ftpsvc01 -u SMC/dw_ftp,dw000000 -p 2026
+\\ws01\world\TEAMWORK\Tracking_Rpt\BM_RPT_SUMM\Cams BM list
+cd "/WORLD/TEAMWORK/Tracking_Rpt/BM_RPT_SUMM/Cams BM list"
+        set ftp:ssl-allow true
+        set ftp:ssl-force true
+        set ftp:ssl-protect-data true
+        set ftp:ssl-protect-list true
+        set ftps:initial-prot
+        set xfer:clobber on
+
+
+sqlplus /@$TDPID
+delete prd_etl.etl_received_file where etl_job='D_BM_STAFF_LIST';
+update prd_etl.etl_job set last_jobstatus='Ready' where etl_job = 'D_BM_STAFF_LIST';
+update prd_etl.etl_job set last_txdate=TO_DATE('2021-06-30','YYYY-MM-DD') where etl_job = 'D_BM_STAFF_LIST';
+update prd_etl.etl_src_file set last_process_start_ts=null where JOB_NAME='D_BM_STAFF_LIST';
+
+commit;
+quit;
+
+
+touch /opt/etl/prd/etl/preprocess/USR/rerun/d_bm_staff_list.rerun.20210701
+
+
+
+
+
+define comm_mth=to_date('$etlvar::F_D_MONTH[0]','YYYY-MM-DD');
+define rpt_mth=add_months(to_date('$etlvar::F_D_MONTH[0]','YYYY-MM-DD'),-3);
+define rpt_s_date=add_months(to_date('$etlvar::F_D_MONTH[0]','YYYY-MM-DD'),-3);
+define rpt_e_date=add_months(to_date('$etlvar::F_D_MONTH[0]','YYYY-MM-DD'),-2)-1;
+
+
+
+
+
+lftp ftpsvc01 -u SMC/dw_ftp,dw000000 -p 2026
+R:\TEAMWORK\Tracking_Rpt\SME Retention\202104
+cd "/WORLD/TEAMWORK/Tracking_Rpt/BM_RPT_SUMM/Cams BM list"
+        set ftp:ssl-allow true
+        set ftp:ssl-force true
+        set ftp:ssl-protect-data true
+        set ftp:ssl-protect-list true
+        set ftps:initial-prot
+        set xfer:clobber on
+cd "/WORLD/TEAMWORK/Tracking_Rpt/SME Retention"
+
+
+
+
+
+sqlplus /@$TDPID
+delete prd_etl.etl_received_file where etl_job='D_BM_CNC_COMM_PLAN_REF';
+update prd_etl.etl_job set last_jobstatus='Ready' where etl_job = 'D_BM_CNC_COMM_PLAN_REF';
+update prd_etl.etl_job set last_txdate=TO_DATE('2021-07-18','YYYY-MM-DD') where etl_job = 'D_BM_CNC_COMM_PLAN_REF';
+update prd_etl.etl_src_file set last_process_start_ts=null where JOB_NAME='D_BM_CNC_COMM_PLAN_REF';
+
+commit;
+quit;
+
+
+touch /opt/etl/prd/etl/preprocess/USR/rerun/d_bm_cnc_comm_plan_ref.rerun.20210719
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
